@@ -1,0 +1,27 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "callable-types": true,
+        "forin": false,
+        "interface-name": [false],
+        "interface-over-type-literal": true,
+        "max-classes-per-file": [false],
+        "max-line-length": [true, 200],
+        "member-ordering": [true,
+        "static-before-instance",
+        "variables-before-functions"
+        ],
+        "no-angle-bracket-type-assertion": true,
+        "no-empty-interface": true,
+        "no-string-throw": true,
+        "no-string-literal": false,
+        "no-trailing-whitespace": false,
+        "prefer-const": true,
+        "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+        "variable-name": [false,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore"
+        ]
+    }
+}

@@ -1,0 +1,57 @@
+img.avatar-image {
+    border-radius: 50%;
+    height: 55px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+    width: 55px;
+}
+
+div.login-prompt {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+div.content {
+    bottom: 0px;
+    left: 72px;
+    padding: 25px;
+    position: absolute;
+    right: 0px;
+    top: 64px;
+}
+
+div.dispatch-container {
+    display: grid;
+    grid-template-areas: "map . data";
+    grid-template-columns: 1fr 25px 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+div.map-container {
+    grid-area: map;
+}
+
+div.dispatch-data {
+    grid-area: data;
+    overflow-y: auto;
+
+    div {
+        margin-bottom: 25px;
+
+        h3.dispatch-heading {
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    }
+}
+
+td.icon, td.id, th.icon, th.id {
+    text-align: center;
+}
+
+div#map {
+    background-color: rgb(15, 168, 210);
+}

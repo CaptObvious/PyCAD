@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./js/",
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "listEmittedFiles": true,
+    "listFiles": true,
+    "module": "CommonJS",
+    "pretty": true,
+    "strict": true,
+    "target": "ES2017",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "keyofStringsOnly": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

@@ -102,3 +102,22 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# JetBrains IDEs
+.idea
+
+# Frontend node_modules
+/static/node_modules
+
+# Flask-Session's data
+/flask_session
+
+# Application settings (contains secrets)
+/settings.json
+
+# Build artifacts
+/static/css/*
+/static/js/*
+
+# VS Code metadata
+.vscode
